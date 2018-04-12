@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-foundation.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Morse</title>
+</head>
+
+<body>
+	<section id="page-morse-home">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 py-4 bgblue">
+					<h1>GENE MORSE</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="col-md-12">Bienvenue sur Corse Mode</h2>
+					<a href="#" class="btn btn-primary col-md-5 mr-2 action-write-morse">
+						Générer morse
+						<span class="fi-media-record"></span>
+					</a>
+					<a href="#" class="btn btn-primary col-md-5 action-read-morse	">
+						Lire morse
+						<span class="fi-media-play"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="page-morse-write">
+		<div class="container">
+			<div class="row col-md-12">
+				<h1 class="col-md-12">Générer morse</h1>
+				<div class="col-md-12 contentMsg">
+					<textarea id="msgclair"  placeholder="Veuillez tapez un message"></textarea>
+				</div>
+				<div class="col-md-12 messagechiffre">
+					<textarea id="msgchiffre" placeholder="Message chiffré"></textarea>
+				</div>
+
+				<div class="col-md-12">
+					<input id="volume" type="range" min="0" max="1" step="0.1" value="0.5">
+					<div class="col-md-12">
+						<input id="start" type="button" value="start">
+						<input id="stop" type="button" value="stop">
+					</div>
+				</div>
+				<div class="col-md-12 back">
+					<a class="btn btn-primary action-back" href="#page-play-record">
+						Back
+						<span class="fi-action-undo"></span>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section id="page-morse-read">
+		<div class="container">
+			<div class="row">
+				<h1 class="col-md-12">Lire morse</h1>
+				<div class="col-md-12 contentMsg">
+					<textarea id="msgcrypt" placeholder="Message crypté"></textarea>
+				</div>
+				<div class="col-md-12 back">
+					<a class="btn btn-primary action-back" href="#page-play-record">
+						Back
+						<span class="fi-action-undo"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="script/morse-read.js"></script>
+	<script src="script/morse-write.js"></script>
+	<script src="script/morse-home.js"></script>
+	<script src="script/morse2.js"></script>
+	<script src="script/Tone.js"></script>
+	<!-- <script type="script/audio.js"></script> -->
+	<script src="script/audio2.js"></script>
+</body>
+
+</html>

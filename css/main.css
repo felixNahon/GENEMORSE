@@ -1,0 +1,83 @@
+body{
+	text-align: center;
+}
+#page-morse-home .jumbotron{
+	text-align: center;
+
+}
+
+#page-morse-home p  {
+	text-align:center;
+}
+
+#page-morse-write {
+	display: none;
+	margin-top: 5%;
+}
+
+#page-morse-read {
+	display: none;
+	margin-top: 5%;
+}
+
+
+#msgclair{
+	width:100%;
+	margin-bottom: 2%;
+	margin-top: 3%;
+}
+
+#msgchiffre{
+	width:100%;
+	margin-bottom: 2%;
+	margin-top: 3%;
+}
+
+#messagechiffre{
+	width:100%;
+	margin-bottom: 2%;
+	margin-top: 3%;
+}
+
+#msgcrypt{
+	width:100%;
+	margin-bottom: 2%;
+	margin-top: 3%;
+}
+.fi-media-record{
+	position: absolute;
+	top: 24%;
+	right: 36%;
+}
+.fi-media-play{
+	position: absolute;
+	top: 24%;
+	right: 38%;
+}
+h2{
+	margin-bottom: 5%;
+	margin-top: 13%;
+}
+.btn-primary{
+	background-color: #337ab7 !important;
+}
+.bgblue{
+	background-color: #337ab7;
+	color: #fff;
+}
+.back{
+	margin-top: 1em;
+}
+.recordpng{
+	width:5%;
+	height:5%;
+}
+
+.playpng{
+	width:5%;
+	height:5%;
+}
+
+.play-record{
+
+}
